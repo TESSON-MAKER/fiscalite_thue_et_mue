@@ -4,9 +4,35 @@ Ce dossier contient les données et les graphiques d’évolution des taxes fonc
 
 ---
 
-## Contenu des graphiques
+## Où trouver les graphiques
 
-Les graphiques sont générés dans le dossier **graphics/**.
+Tous les graphiques sont dans le dossier **`graphics/`** à la racine du projet. Ils sont générés par le script Python (voir plus bas) et enregistrés en PNG dans ce dossier.
+
+### Aperçu de quelques graphiques
+
+#### Taux TFPB (propriétés bâties)
+
+![Évolution du taux TFPB](graphics/evolution_taux_tfpb_bati.png)
+
+#### Taux TFNB (propriétés non bâties)
+
+![Évolution du taux TFNB](graphics/evolution_taux_tfnb_non_bati.png)
+
+#### TFPB et TFNB réunis
+
+![Taux bâti et non bâti](graphics/evolution_taux_bati_et_non_bati.png)
+
+#### Montant de la TFPB (part communale)
+
+![Évolution du montant TFPB](graphics/evolution_montant_tfpb.png)
+
+*Les autres graphiques (toutes déclinaisons, montants par déclinaison) sont aussi dans **`graphics/`** : `evolution_taux_toutes_declinaisons.png`, `evolution_montants_declinaisons.png`.*
+
+---
+
+## Contenu des graphiques (détail)
+
+Les graphiques sont générés et enregistrés dans le dossier **graphics/**.
 
 ### Graphiques principaux (taux)
 
