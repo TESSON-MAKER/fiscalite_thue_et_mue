@@ -1,0 +1,5 @@
+/backup
+.venv
+
+# Fichiers JSON trop volumineux pour GitHub (> 100 Mo)
+data/rei_calvados.json
